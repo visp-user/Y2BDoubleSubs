@@ -20,6 +20,7 @@ javascript:clearInterval(render_interval_ba46c541);
                     var default_captions_dom = document.querySelector('.captions-text');
                     var default_captions_innerHTML = default_captions_dom && default_captions_dom.innerHTML;
                     var default_captions_styles = default_captions_dom && default_captions_dom.querySelector('.caption-visual-line .ytp-caption-segment').getAttribute('style')
+                    console.log ('here 10');
                     debugger;
                     document.querySelector('.captions-text').innerHTML = 
                         `<span class='caption-visual-line' style='display: block;'>
